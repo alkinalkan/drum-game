@@ -1,2 +1,2 @@
 # drum-game
-![My Image](drum.jpg)
+![My Image](drum.png)
