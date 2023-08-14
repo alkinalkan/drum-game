@@ -1,21 +1,25 @@
+/* Styling for the entire body */
 body {
   text-align: center;
   background-color: #d08e00;
 }
 
+/* Styling for the main header */
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
-  font-family: "Comic", cursive;  
+  font-family: "Comic", cursive;
   text-shadow: 3px 0 #a60101;
-
 }
 
+/* Styling for the footer */
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
 }
 
+/* Styling for the elements with class 'w', 'a', 's', 'd', 'j', 'k', 'l' */
+/* These might be used to represent keyboard keys or buttons */
 .w {
   background-image: url("images/w.png");
 }
@@ -44,15 +48,18 @@ footer {
   background-image: url("images/l.png");
 }
 
+/* Styling for elements with class 'set' */
 .set {
   margin: 7.5% auto;
 }
 
+/* Styling for elements with class 'pressed' */
 .pressed {
   box-shadow: 0 3px 4px 0 #ff0000;
   opacity: 0.5;
 }
 
+/* Styling for elements with class 'drum' */
 .drum {
   outline: none;
   border: 10px solid #670000;
@@ -61,7 +68,7 @@ footer {
   line-height: 2;
   font-weight: 900;
   color: #000000;
-  text-shadow: 3px 0 #000000; 
+  text-shadow: 3px 0 #000000;
   border-radius: 15px;
   display: inline-block;
   width: 150px;
